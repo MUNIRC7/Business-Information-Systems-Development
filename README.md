@@ -1,40 +1,29 @@
 BIS Development Project
-Overview
-This repository contains the project files for a web application designed to manage product and employee details. The application is built using PHP for the backend and MySQL for the database, demonstrating key object-oriented programming concepts.
+As part of my coursework for the "BIS Development" module at the University of Westminster, I developed a comprehensive web application prototype for managing product and employee details using object-oriented programming (OOP) principles with PHP and MySQL.
 
-Table of Contents
-Project Description
-Setup Instructions
-Code Implementation
-Object-Oriented Concepts
-Usage
-Contributing
-License
-
-Project Description
-The web application allows users to perform CRUD (Create, Read, Update, Delete) operations on product and employee records. It includes:
+Project Overview:
+The web application allows users to perform CRUD (Create, Read, Update, Delete) operations on product and employee records. Key features include:
 
 Product Management: Display, add, update, and delete product details.
 Employee Management: Display, add, update, and delete employee details.
-Object-Oriented Design: Encapsulation, inheritance, and abstraction principles applied in PHP.
-
-Key Features
 User-Friendly Interface: Easy navigation and interaction.
 Data Integrity: Ensures accurate and consistent data management.
 Efficient Operations: Streamlined processes for managing records.
+Object-Oriented Concepts:
 
-Object-Oriented Concepts
-Encapsulation
-Product and employee data are encapsulated within their respective classes, hiding the implementation details and exposing only necessary methods.
+Encapsulation: Product and employee data are encapsulated within their respective classes, hiding implementation details.
+Inheritance: Products and Employees classes inherit from a base Database class, sharing common functionalities.
+Abstraction: Complex database operations are abstracted into methods like find_all and find_by_id, simplifying their usage.
+Learning Outcomes:
 
-Inheritance
-The Products and Employees classes inherit from a base Database class, sharing common database-related functionalities.
+Demonstrated understanding of the OOP paradigm.
+Applied OOP principles to design a medium-scale business system.
+Developed a prototype to implement specifications using an appropriate OOP language.
+Analyzed different data storage, management, and usage methods in business computing applications.
+Engaged in academic and professional discussions reflecting on OOP design knowledge and providing advice for developing business systems.
+Deliverables:
 
-Abstraction
-Complex database operations are abstracted away in methods like find_all and find_by_id, simplifying their usage.
-
-Usage
-The web application is designed to:
-
-Manage Products: Add, update, delete, and view product details.
-Manage Employees: Add, update, delete, and view employee details.
+Implementation: Developed using OO PHP and MySQL, the prototype includes all necessary classes, database connections, and CRUD functionalities.
+Report: Detailed documentation explaining the implementation, code references, and OOP principles applied.
+Submission: Uploaded all files to the university server and submitted a single file on Blackboard containing the project’s web address, report, and code appendix.
+This project enhanced my skills in OOP, data management, and web development, culminating in a robust and functional web application prototype.
