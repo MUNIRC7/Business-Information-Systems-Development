@@ -3,8 +3,8 @@
 
 //Keep database details in a seperate file
 define("DB_SERVER", "phpmyadmin.ecs.westminster.ac.uk");
-define("DB_USER", "w1826770");                   //your login name
+define("DB_USER", "******");                   //your login name
 define("DB_PASS", "********");             //your password. You can find it in the address: https://support.ecs.westminster.ac.uk/mysql/index.php
-define("DB_NAME", "w1826770_0");                 //your database
+define("DB_NAME", "******");                 //your database
 
 ?>
